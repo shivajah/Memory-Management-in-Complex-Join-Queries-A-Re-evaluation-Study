@@ -18,7 +18,7 @@
  !-->
 
  ## Memory Management in Complex Join Queries: A Re-evaluation Study
- For this study, we used Apache AsterixDB as our development and evaluation platform. This submission includes the code enabling asterixdb to control the execution of a multi-join query. Such controls would allow a multi-join query to execute under any of the Left-Deep Tree, Right-Deep Tree, Bushy Tree, Static Right-Deep Tree, Sequential Right-Deep Tree, and Sequential-Static Right-Deep Tree.
+ For this study, we used Apache AsterixDB as our development and evaluation platform. This submission includes the code enabling asterixdb to control the execution of a multi-join query. Such controls would allow a multi-join query to execute under any of the Left-Deep Tree, Right-Deep Tree, Bushy Tree, and Static Right-Deep Tree.
 
  We used Wisconsin Data Generator (https://github.com/shivajah/JSON-Wisconsin-Data-Generator) for generating the data following Wisconsin Benchmark Schema and data generation rules. For further details on settings and queries please refer to https://escholarship.org/uc/item/2hv8408v , Chapter 4 and Appendix.
 
